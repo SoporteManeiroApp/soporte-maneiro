@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+:root {
+  --primary: #023059;
+  --secondary: #049DD9;
+  --accent: #2BD925;
+  --white: #FFFFFF;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  position: relative;
+}
