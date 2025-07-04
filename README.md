@@ -10,7 +10,6 @@ Este proyecto es una aplicación web diseñada para centralizar y gestionar efic
 * **Autenticación segura** para registrarse e iniciar sesión.
 * Creación de nuevos tickets de soporte, especificando categoría (**Hardware, Software, Redes**) y nivel de prioridad.
 * Posibilidad de **adjuntar archivos** o capturas de pantalla a los tickets.
-* Visualización del historial y estado de sus tickets personales: `Abierto`, `En Progreso`, `Cerrado`.
 
 ### ⚙️ Panel de Soporte (Equipo de TI)
 * **Dashboard con métricas clave:** tickets abiertos, tickets por técnico, tiempo de resolución promedio.
