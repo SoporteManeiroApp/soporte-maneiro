@@ -164,6 +164,7 @@ class RequestViewSet(viewsets.ModelViewSet):
                 'description': report_request.description,
                 'note': report_request.note,
                 'created_at': timezone.localtime(report_request.created_at).strftime('%d de %B del %Y'),
+                'depardepartment_director': report_request.department.director,
                 'department_name': report_request.department.name if report_request.department else 'N/A',
                 'technician_full_name': f"{report_request.technician.first_name} {report_request.technician.last_name}".strip() if report_request.technician else 'N/A',
             }
